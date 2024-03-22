@@ -1,0 +1,26 @@
+div~p{
+    background-color: yellow;
+    color: red;
+    text-align: justify;
+    padding: 12px;
+}
+
+h1::after{
+    content: " i am after";
+}
+h1::before{
+    content: " I am before ";
+}
+h1::first-letter{
+    color: blue;
+}
+/* p::first-line{
+    background-color: teal;
+} */
+input::placeholder{
+    content: "hello";
+    color: maroon;
+    font-size: 30px;
+    line-height: normal;
+
+}

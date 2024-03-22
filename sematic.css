@@ -1,0 +1,43 @@
+.head{
+    background-color: #ffff00;
+    padding: 25px;
+}
+.nav{
+    background-color: red;
+    color: white;
+    padding: 10px 0px;
+    word-spacing: 30px;
+    width: 300px;
+    text-align: center; 
+    position: relative;
+    position: absolute;
+    left: 500px;
+    top:14px;
+   
+}
+.main{
+    background-color: gray;
+}
+.para{
+    background-color: white;
+    border: 11px solid black;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-weight: 600;
+    line-height: 23px;
+   border-bottom-color : yellow;
+   border-top-color: springgreen;
+}
+.sec{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.art{
+    background-color: greenyellow;
+    
+}
+.data{
+    position: relative;
+    left: 100px;
+}

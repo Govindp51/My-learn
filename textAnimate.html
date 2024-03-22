@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+ .animate{
+    animation: marquee 5s ease-in 1s 7 ;
+    
+ }
+ @keyframes marquee {
+   
+    0%{
+        transform: translateX(100%);
+        color: red;
+        background-color: aqua;
+    }
+    50%{
+        transform: rotateX(120deg);
+        color: yellow;
+        background-color: tan;
+    }
+    100%{
+        transform: translateX(-100%);
+        color: green;
+        background-color: lightslategrey;
+    }
+    
+ }
+</style>
+   
+   
+ <h1 class="animate">Hello Makkale</h1>
+</body>
+</html>

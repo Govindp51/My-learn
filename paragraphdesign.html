@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainpara {
+            background-color: aqua;
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            overflow-y: scroll;
+            border-radius: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+        }
+
+        .para {
+            background-color: darkblue;
+            border-radius: 20px;
+            color: white;
+            padding: 10px;
+            box-shadow: inset 0 0 10px whitesmoke;
+
+        }
+
+        .para>h1 {
+            text-align: center;
+            border-bottom: 2px solid aqua;
+
+        }
+
+        .mainpara1 {
+            position: relative;
+            left: 350px;
+            top: -317px;
+            background-color: greenyellow;
+            overflow-y: scroll;
+            width: 310px;
+            height: 300px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .para1 {
+            padding: 5px;
+            background-color: lightgreen;
+            border-radius: 10px;
+        }
+
+        .para1>h1 {
+            background-color: lightseagreen;
+            text-align: center;
+            border-radius: 20px;
+            transition: 0.4s;
+
+        }
+
+        .para1>h1:hover {
+            background-color: whitesmoke;
+            transform: scale(.9);
+            border-top: 2px solid black;
+            border-right: 2px solid green;
+        }
+
+        .mainpara::-webkit-scrollbar {
+            width: 10px;
+            border-radius: 10px;
+        }
+
+        .mainpara::-webkit-scrollbar-track {
+            background-color: lightsteelblue;
+        }
+
+        .mainpara::-webkit-scrollbar-thumb {
+            background-color: darkblue;
+            border-radius: 50px;
+        }
+
+        /* button for top and bottom */
+        .mainpara::-webkit-scrollbar-button {
+            background-color: yellow;
+            /* border-radius: 10px; */
+        }
+
+        ::-webkit-scrollbar-corner {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainpara">
+        <div class="para">
+            <h1>Heart Melt...💞</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rerum iure doloribus minus ab, maxime
+                dolore? Vitae consequatur velit expedita error nemo repellat nesciunt aliquid veritatis, aut fuga
+                consequuntur porro! Voluptates perspiciatis ipsa repellendus repudiandae soluta sapiente rem itaque quod
+                ducimus, impedit voluptatibus velit! Tempora architecto vitae culpa et. Ab similique tempora amet. Quo
+                excepturi repudiandae iure, qui, corporis dolorem accusantium est, beatae exercitationem perferendis
+                quasi enim debitis facilis! Autem similique magni sequi dolores perspiciatis aspernatur voluptas labore
+                fugiat at earum maiores cupiditate laudantium, ullam eaque dolorum atque praesentium laborum velit
+                impedit incidunt. Voluptate distinctio quae, nisi fuga dolore praesentium.
+            </p>
+        </div>
+    </div>
+
+    <div class="mainpara1">
+        <div class="para1">
+            <h1>Heart Melt...💞</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rerum iure doloribus minus ab, maxime
+                dolore? Vitae consequatur velit expedita error nemo repellat nesciunt aliquid veritatis, aut fuga
+                consequuntur porro! Voluptates perspiciatis ipsa repellendus repudiandae soluta sapiente rem itaque quod
+                ducimus, impedit voluptatibus velit! Tempora architecto vitae culpa et. Ab similique tempora amet. Quo
+                excepturi repudiandae iure, qui, corporis dolorem accusantium est, beatae exercitationem perferendis
+                quasi enim debitis facilis! Autem similique magni sequi dolores perspiciatis aspernatur voluptas labore
+                fugiat at earum maiores cupiditate laudantium, ullam eaque dolorum atque praesentium laborum velit
+                impedit incidunt. Voluptate distinctio quae, nisi fuga dolore praesentium.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

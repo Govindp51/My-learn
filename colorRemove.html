@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="red">Welcome Friends</h1>
+    <button>Toggles</button>
+    <style>
+.red{
+background-color: red;
+width: 600px;
+color: white;
+}
+.blue{
+    background-color: blue;
+    width: 300px;
+}
+    </style>
+
+    <script>
+        document.querySelector('button').addEventListener("click", function(){
+            const h1 = document.querySelector('h1');
+            if(h1.classList.contains('blue')) {
+                h1.classList.remove('blue')
+                h1.classList.add('red')
+                } else {
+                    h1.classList.add('blue')
+                    }
+                    })
+
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="one">Welcome World</h1>
+    <h1 class="two">Welcome World</h1>
+    <h1 class="two">Welcome World</h1>
+    <h1 class="one">Welcome World</h1>
+    <button>click</button>
+
+    <script>
+        
+        const get = document.querySelector('button');
+        const onclick = function(){
+alert('hey')
+        }
+
+        console.error('It is error');
+    </script>
+</body>
+</html>

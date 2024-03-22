@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/bulboffs.jpg" height="400px"  width="300px" >
+
+    <script>
+        let img = document.querySelector('img')
+        img.onclick=()=> {
+            var src = img.getAttribute('src')
+
+            if(src==="img/bulboffs.jpg"){
+
+                img.setAttribute( "src","img/bulbon.jpg")
+            }
+            else
+            {
+                img.setAttribute("src","img/bulboffs.jpg")
+            }
+        }
+    </script>
+</body>
+</html>
